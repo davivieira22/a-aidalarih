@@ -18,6 +18,7 @@ function seeMenu() {
           <img class="img" src="${element.src}">
 
           <p>${element.name}</p>
+          <p>mais:${element.acompanhamento}:adicionais</p>
 
           <p class="Price"> ${formatValue(element.price)}</p>
 

@@ -121,6 +121,7 @@ li {
 
 @media screen and (max-width:600px) {
     .paragrafo {
+        visibility: hidden;
         width: 100%;
         margin-top: 50px;
         text-align: -webkit-center;
@@ -135,15 +136,15 @@ li {
     }
 
 
-    h1 {
+    h1 { visibility: hidden;
         margin-left: -10px;
         width: 140%;
         text-align: center;
         font-size: 50px;
     }
 
-    .logo {
-        margin-bottom: -40vh;
+    .logo {visibility: hidden;
+        margin-bottom:40vh;
         margin-left: 10%;
         width: 90%;
     }
@@ -168,7 +169,7 @@ li {
     }
 
 
-    ul {margin-top:400px;
+    ul {margin-top:-720px;
         list-style: none;
         display: grid;
         grid-template-columns: 80%;
