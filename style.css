@@ -79,6 +79,7 @@ button:hover {
 }
 
 button {
+    
     cursor: pointer;
     background-color: blueviolet;
     width: 200px;

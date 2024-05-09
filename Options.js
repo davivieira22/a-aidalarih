@@ -17,6 +17,7 @@ const menuOptions = [
 
     { name: "barca da larih maste ",acompanhamento:'3',  size: "1l", price: 30, src: "./img/barca da larih.webp" },
 
+    
     { name: "barca da larih ",acompanhamento:'3',  size: "1l", price: 20, src: "./img/abcd.jpg" }
 
 ]

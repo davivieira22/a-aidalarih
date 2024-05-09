@@ -23,6 +23,7 @@ function seeMenu() {
           <p class="Price"> ${formatValue(element.price)}</p>
 
          
+          
          <p>tamanho: ${element.size}</p>
 
          </li>
