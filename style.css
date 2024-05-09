@@ -81,13 +81,31 @@ button:hover {
 button {
     cursor: pointer;
     background-color: blueviolet;
-    width:200px;
+    width: 200px;
     height: 60px;
     border-radius: 20px;
     font-size: 20px;
     font-weight: 700;
     border: 1px solid rgb(38, 4, 73);
     margin-left: 20px;
+}
+a{display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: blueviolet;
+    width: 200px;
+    height: 60px;
+    color: black;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid rgb(38, 4, 73);
+    margin-left: 20px;
+}
+
+.logo-de-pedido {
+    width:100px;
 }
 
 
@@ -136,15 +154,17 @@ li {
     }
 
 
-    h1 { visibility: hidden;
+    h1 {
+        visibility: hidden;
         margin-left: -10px;
         width: 140%;
         text-align: center;
         font-size: 50px;
     }
 
-    .logo {visibility: hidden;
-        margin-bottom:40vh;
+    .logo {
+        visibility: hidden;
+        margin-bottom: 40vh;
         margin-left: 10%;
         width: 90%;
     }
@@ -169,7 +189,8 @@ li {
     }
 
 
-    ul {margin-top:-720px;
+    ul {
+        margin-top: -720px;
         list-style: none;
         display: grid;
         grid-template-columns: 80%;
