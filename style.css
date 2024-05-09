@@ -77,8 +77,10 @@ button:active {
 button:hover {
     opacity: 0.5;
 }
-a{color: black;
-    padding-top:12px;
+
+a {
+    color: black;
+    padding-top: 12px;
     padding-left: 60px;
     cursor: pointer;
     background-color: blueviolet;
@@ -90,8 +92,9 @@ a{color: black;
     border: 1px solid rgb(38, 4, 73);
     margin-left: 20px;
 }
+
 button {
- 
+
     cursor: pointer;
     background-color: blueviolet;
     width: 200px;
@@ -167,6 +170,12 @@ li {
         margin-bottom: 40vh;
         margin-left: 10%;
         width: 90%;
+    }
+
+    a {
+        width: 50%;
+        height: 40px;
+        color: aliceblue;
     }
 
     button {
