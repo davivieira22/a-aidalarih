@@ -18,7 +18,7 @@ body {
 }
 
 .header {
-    margin-top: 2%;
+    margin-top: 3%;
     display: flex;
     margin-left: 2%;
 
@@ -89,23 +89,10 @@ button {
     border: 1px solid rgb(38, 4, 73);
     margin-left: 20px;
 }
-a{display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    background-color: blueviolet;
-    width: 200px;
-    height: 60px;
-    color: black;
-    border-radius: 20px;
-    font-size: 20px;
-    font-weight: 700;
-    border: 1px solid rgb(38, 4, 73);
-    margin-left: 20px;
-}
+
 
 .logo-de-pedido {
-    width:100px;
+    width: 100px;
 }
 
 
